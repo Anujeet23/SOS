@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Pointer Score</title>
+ <link rel = "stylesheet" href = "style3.css">
+  <link rel = "icon" type = "logo" href="PIC/logo.png">
+  <script src="score_detector.js" defer></script>
+
+</head>
+
+<body>
+
+<h1>Pointer Score</h1>
+<form onsubmit="return false">
+<select>
+ <option>SEM-1</option>
+ <option>SEM-2</option>
+</select>
+<div class="main_box">
+ <div class="box">
+  <div class = "weeklybasis">
+
+ <h2>Preference 1</h2>
+
+ <label >Subject</label>
+ <input  style="width:320px; height:25px;" type = "text" value="Mathematics"  placeholder=""  required>
+  <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-1"> </div>
+ </div>
+ </div>
+ </div>
+
+ <div class="box1">
+  <div class = "weeklybasis">
+
+ <h2>Preference 2</h2>
+
+ <label>Subject</label>
+ <input style="width:320px; height:25px;" value="Chemistry" type = "text"  required>
+  <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-2"> </div>
+ </div>
+
+  </div>
+ </div>
+
+ <div class="box2">
+  <div class = "weeklybasis">
+
+ <h2>Preference 3</h2>
+
+ <label>Subject</label>
+ <input style="width:320px; height:25px;" value="Physics" type = "text" required>
+  <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-3"> </div>
+ </div>
+  </div>
+ </div>
+</div>
+
+
+<div class="main_box">
+ <div class="box">
+  <div class = "weeklybasis">
+
+ <h2>Preference 4</h2>
+
+ <label>Subject</label>
+ <input  style="width:320px; height:25px;" value="Graphics" type = "text" required>
+  <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-4"> </div>
+ </div>
+  </div>
+ </div>
+
+ <div class="box1">
+  <div class = "weeklybasis">
+
+ <h2>Preference 5</h2>
+
+ <label>Subject</label>
+ <input style="width:320px; height:25px;" value="C Programming" type = "text" required>
+    <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-5"> </div>
+ </div>
+
+   <br><br><br><br>
+ <label style="color : white;" >CGPA</label>
+ <input id ="cgpa" style="width:320px; height:25px;" type = "number" value="0" placeholder="Enter the cgpa" max="10" min="0" required>
+ <label style="color : white;" >Total Marks</label>
+ <input id ="marks" style="width:320px; height:25px;" type = "number" value="0" placeholder="Enter the marks"  required>
+
+  <input style=" text-align: center;"  onclick="score1()" type = "submit" value = "Submit" >
+ </div>
+ </div>
+
+ <div class="box2">
+  <div class = "weeklybasis">
+
+ <h2>Preference 6</h2>
+
+ <label>Subject</label>
+ <input style="width:320px; height:25px; " value="Professional Communication Ethics" type = "text"  required>
+  <label >Marks</label>
+ <div class="IAT">
+            <h4 style="text-align:left; padding-left:10px;">Target: </h4>
+            <div id="p-6"> </div>
+ </div>
+
+
+ </div>
+ </div>
+</div>
+</form>
+
+<br> <br>
+
+</body>
+</html>

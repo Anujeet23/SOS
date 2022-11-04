@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Monthly Basis</title>
+ <link rel = "stylesheet" href = "style3.css">
+  <link rel = "icon" type = "logo" href="PIC/logo.png">
+ <script src="monthly.js" defer></script>
+</head>
+
+<body>
+
+<h1>Monthly Basis Attendance</h1>
+
+<form onsubmit="return false">
+<label style=" color: white">Select Month: </label><input style=" text-align: center; height:35px; " type="month" required >
+<div class="main_box">
+ <div class="box" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2>Mathematics</h2><br>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-1" style="width:320px; height:35px;" type = "number" placeholder="" max="20" min="0" required>
+ <br><br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-1"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-1"></div>
+   </div>
+ </div>
+ </div>
+
+ <div class="box1" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2>Chemistry</h2><br>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-2" style="width:320px; height:35px;" type = "number" placeholder="" max="20" min="0" required>
+<br><br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-2"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-2"></div>
+   </div>
+ </div>
+ </div>
+
+ <div class="box2" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2>Physics</h2><br>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-3" style="width:320px; height:35px;" type = "number" placeholder="" max="20" min="0" required>
+<br><br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-3"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-3"></div>
+   </div>
+ </div>
+ </div>
+</div>
+
+
+<div class="main_box">
+ <div class="box" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2>Graphics</h2><br>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-4" style="width:320px; height:35px;" type = "number" placeholder="" max="20" min="0" required>
+<br><br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-4"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-4"></div>
+   </div>
+ </div>
+ </div>
+
+ <div class="box1" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2>C Programming</h2><br>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-5" style="width:320px; height:35px;" type = "number" placeholder="" max="20" min="0" required>
+ <br><br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-5"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-5"></div>
+   </div>
+   <br><br><br>
+  <input style=" text-align: center;"  onclick="attendance()" type = "submit" value = "Submit" >
+
+  </div>
+ </div>
+
+ <div class="box2" style="height:350px;">
+  <div class = "weeklybasis">
+
+ <h2 style="font-size: 27.5px;" >Professional Communication Ethics </h2>
+
+ <label>Number of hours missed</label>
+ <input value="0" id="h-6" style="width:320px; height:35px; " type = "number" placeholder="" max="20" min="0" required>
+<br><br>
+   <div class="per1" >
+    <h4 style="text-align:left; padding-left:10px;">Number of lectures:</h4>
+    <div id="o-6"></div>
+   </div>
+   <br>
+   <div class="per1">
+    <h4 style="text-align:left; padding-left:10px;">Status: </h4>
+    <div id="s-6"></div>
+   </div>
+
+
+ </div>
+ </div>
+</div>
+</form>
+
+
+
+</body>
+</html>
