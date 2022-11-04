@@ -1,4 +1,3 @@
-# SOS is about helping students achieve their academic goals as follows:-
-                                           //Statistical Optimizer For Students\\
-1. Students fail to reach minimum criteria of 75% in colleges, To overcome this problem we are commited to build a optimized software for their help! . 
-2. Student can set their goals like how much they want to score in semester. According to that our system will tell them how much they should prepare for every exam.
+
+                                                        **Statistical Optimizer For Students**
+                                                        Statistic optimizer for students is a interactive software interface build for students, to optimize their academic performance by keeping track of marks and attendance. It also provides study material. This helps the student in getting good grades, and helps the student to not fall into defaulters list. This can also be a platform for parents, mentors, and teachers to keep track of their child’s performance and attendance. This is a student-based interface where the student will have to enter their information weekly for their own betterment. 
